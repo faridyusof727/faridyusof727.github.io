@@ -14,7 +14,7 @@
       <link>http://localhost:1313/posts/sentinel-error/</link>
       <pubDate>Fri, 22 Nov 2024 22:08:02 +0800</pubDate>
       <guid>http://localhost:1313/posts/sentinel-error/</guid>
-      <description>&lt;p&gt;I was working on a project where I need to check on certain errors that return&#xA;from a deep, deep function.&lt;/p&gt;&#xA;&lt;p&gt;The deepest function was calling a third party API. Fortunately, the third party&#xA;package that I was using is pretty following &amp;lsquo;single responsibility principle&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;Ah, this is great! Since the function purpose explicitly mentioned waiting until&#xA;some capacity is ready on the provider side, I can just check on the error the&#xA;function returns.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I was working on a project where I need to check on certain errors that return&#xA;from a deep, deep function.&lt;/p&gt;&#xA;&lt;p&gt;The deepest function was calling a third party API. Fortunately, the third party&#xA;package that I was using is pretty following &amp;lsquo;single responsibility principle&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;Ah, this is great! Since the function purpose is to wait until some capacity is&#xA;ready on the provider side, I can just check on the error the function returns.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Singleton in Go</title>
