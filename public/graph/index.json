@@ -4,6 +4,10 @@
       "in": [],
       "out": []
     },
+    "/posts/sentinel-error/": {
+      "in": [],
+      "out": []
+    },
     "/posts/using-singleton-in-go/": {
       "in": [],
       "out": []
@@ -14,6 +18,11 @@
       "permalink": "/posts/notes-about-singleton/",
       "section": "posts",
       "title": "Notes About Singleton"
+    },
+    "/posts/sentinel-error/": {
+      "permalink": "/posts/sentinel-error/",
+      "section": "posts",
+      "title": "Sentinel Error"
     },
     "/posts/using-singleton-in-go/": {
       "permalink": "/posts/using-singleton-in-go/",

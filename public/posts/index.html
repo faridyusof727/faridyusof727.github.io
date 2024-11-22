@@ -18,8 +18,8 @@
 
 
   <meta itemprop="name" content="Posts">
-  <meta itemprop="datePublished" content="2024-11-22T21:54:01+08:00">
-  <meta itemprop="dateModified" content="2024-11-22T21:54:01+08:00">
+  <meta itemprop="datePublished" content="2024-11-22T22:08:02+08:00">
+  <meta itemprop="dateModified" content="2024-11-22T22:08:02+08:00">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
@@ -105,6 +105,29 @@
 
         <div class="not-prose">
   <ol>
+      <li class="mb-6">
+        <article class="flex flex-col space-y-1">
+          <header>
+            <h3 class="text-lg font-semibold leading-none">
+              <a
+                href="/posts/sentinel-error/"
+                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+                >Sentinel Error</a
+              >
+            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2024-11-22T22:08:02&#43;08:00"
+              >November 22, 2024</time
+            >
+          </header>
+
+          <div class="text-sm"><p>I was working on a project where I need to check on certain errors that return
+from a deep, deep function.</p>
+<p>The deepest function was calling a third party API. Fortunately, the third party
+package that I was using is pretty following &lsquo;single responsibility principle&rsquo;.</p>
+<p>Ah, this is great! Since the function purpose explicitly mentioned waiting until
+some capacity is ready on the provider side, I can just check on the error the
+function returns.</p></div>
+        </article>
+      </li>
       <li class="mb-6">
         <article class="flex flex-col space-y-1">
           <header>
