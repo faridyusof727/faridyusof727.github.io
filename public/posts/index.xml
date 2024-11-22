@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Farid Yusof&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Farid Yusof&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Farid Yusof</copyright>
+    <lastBuildDate>Fri, 22 Nov 2024 21:36:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes About Singleton</title>
+      <link>http://localhost:1313/posts/notes-about-singleton/</link>
+      <pubDate>Fri, 22 Nov 2024 21:36:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/notes-about-singleton/</guid>
+      <description>&lt;p&gt;I’ve been reading that singleton is an anti-pattern but it helps when I want to&#xA;connect to a DB instance.&lt;/p&gt;&#xA;&lt;p&gt;There are so many thoughts. For starters, the above is a very generic statement.&#xA;Some languages rely on singletons, and some languages don’t support them at all.&#xA;I think that everything has a place. And as long as the consequences of doing a&#xA;thing are understood, and acceptable, then it is ok to do the thing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+{
+  "graph": {
+    "/posts/notes-about-singleton/": {
+      "in": [],
+      "out": []
+    }
+  },
+  "pages": {
+    "/posts/notes-about-singleton/": {
+      "permalink": "/posts/notes-about-singleton/",
+      "section": "posts",
+      "title": "Notes About Singleton"
+    }
+  }
+}

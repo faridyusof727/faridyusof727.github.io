@@ -1,0 +1,213 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    Notes About Singleton | Farid Yusof&#39;s Blog
+</title>
+  <meta name="description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
+There are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing." />
+<meta property="og:url" content="http://localhost:1313/posts/notes-about-singleton/">
+  <meta property="og:site_name" content="Farid Yusof&#39;s Blog">
+  <meta property="og:title" content="Notes About Singleton">
+  <meta property="og:description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
+There are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-22T21:36:14+08:00">
+    <meta property="article:modified_time" content="2024-11-22T21:36:14+08:00">
+
+
+  <meta itemprop="name" content="Notes About Singleton">
+  <meta itemprop="description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
+There are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing.">
+  <meta itemprop="datePublished" content="2024-11-22T21:36:14+08:00">
+  <meta itemprop="dateModified" content="2024-11-22T21:36:14+08:00">
+  <meta itemprop="wordCount" content="589">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Notes About Singleton">
+  <meta name="twitter:description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
+There are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing.">
+
+<link rel="canonical" href="http://localhost:1313/posts/notes-about-singleton/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/posts/notes-about-singleton/",
+  "@type": "BlogPosting",
+  "copyrightNotice": "Farid Yusof",
+  "datePublished": "2024-11-22",
+  "description": "I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.\nThere are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing.",
+  "headline": "Notes About Singleton",
+  "isPartOf": {
+    "@id": "http://localhost:1313/posts/",
+    "@type": "Blog",
+    "name": "Posts"
+  },
+  "mainEntityOfPage": "http://localhost:1313/posts/notes-about-singleton/",
+  "name": "Notes About Singleton",
+  "timeRequired": "PT3M",
+  "url": "http://localhost:1313/posts/notes-about-singleton/",
+  "wordCount": 589
+}
+</script>
+
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">Farid Yusof&#39;s Blog</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/graph/">Graph</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">Notes About Singleton</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2024-11-22T21:36:14&#43;08:00"
+            >November 22, 2024</time
+          >
+        </div>
+    </header>
+
+    <p>I’ve been reading that singleton is an anti-pattern but it helps when I want to
+connect to a DB instance.</p>
+<p>There are so many thoughts. For starters, the above is a very generic statement.
+Some languages rely on singletons, and some languages don’t support them at all.
+I think that everything has a place. And as long as the consequences of doing a
+thing are understood, and acceptable, then it is ok to do the thing.</p>
+<p>Singletons. People normally say that they are bad — my feeling is they are misunderstood.
+If you understand that every time you require (CommonJS) or import (ESM) a file,
+you will receive the same instance of the file as long as you are running in the
+same thread, then you can use this to your advantage — i.e. what I like to refer
+to as a ‘poor man’s cache’ it’s a cheap and easy way to cache an expensive value
+(like a database connection) as long as you don’t rely on it always
+(if your js runs in a new thread, you won’t have the old value).</p>
+<p>I often encourage people to look at the basics of functional programming.
+Specifically, in this case, the concepts of functions without side effects,
+vs functions with side effects &amp; pure functions. A side effect is when a
+function manipulates something that is outside its scope (like a database) a
+pure function will always produce the same output when you give it the same input.</p>
+<p>If a function takes a DB connection as an input and read from the DB, it does not
+have side effects, but it is not pure. because you are dependent on the state of
+the external service (the DB).</p>
+<p>Loosely speaking, you should try to keep all your non-pure or side-effect
+production functions together, and isolated from your pure functions.</p>
+<p>While people will say things like “it’s not functional programming if you
+have even one non-pure function” that’s silly because in modern development,
+like web development — the act of rendering to a browser itself is a side effect.</p>
+<p>Anyway — back to the question — singletons and non-pure functions go hand in
+hand in my opinion. they both follow the same concepts — use them wisely, but
+most importantly, understand the implications and the consequences, and accept
+them.</p>
+<p>So I guess summarising, on singletons.</p>
+<ul>
+<li>Don’t overuse them</li>
+<li>Understand the intent of why they are useful</li>
+<li>Make careful decisions about when to use them</li>
+<li>Consider what the alternatives are</li>
+</ul>
+<p>Wrapping that up into a logical example — the DB connection that has been raised,
+a singleton class, will give you access to the DB connection anywhere you need it.
+The alternative is that you initiate the class once, and you pass it around up
+and down the stack to where you need it. This becomes quite messy and will
+introduce unnecessary complexity.</p>
+<p>React state is another good example. In the beginning, when learning to React
+(Vue is probably the same) you pass props up and down your component stack.
+Over time, you get more and more components. Then you end up ‘prop drilling’.</p>
+<p>So Redux becomes popular, and you use essentially a singleton state object —
+that you can call up when needed. Redux abstracts a lot of the complexity —
+but at its core — it’s baked into the react Context — which is a singleton
+concept for providing a shared context.</p>
+<p>Disclaimer: This is just my personal note. You can refer to this note without
+permission. Credit to Cole Diffin.</p>
+
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/posts/notes-about-singleton/"
+></content-network-graph>
+
+    </section>
+</aside>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2024, Farid Yusof.</p>
+
+  </div>
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.5.2"
+        >theme: til</a
+      >
+    </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>
