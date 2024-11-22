@@ -1,6 +1,5 @@
 +++
 date = '2024-11-22T21:36:14+08:00'
-draft = true
 title = 'Notes About Singleton'
 +++
 
