@@ -3,6 +3,10 @@
     "/posts/notes-about-singleton/": {
       "in": [],
       "out": []
+    },
+    "/posts/using-singleton-in-go/": {
+      "in": [],
+      "out": []
     }
   },
   "pages": {
@@ -10,6 +14,11 @@
       "permalink": "/posts/notes-about-singleton/",
       "section": "posts",
       "title": "Notes About Singleton"
+    },
+    "/posts/using-singleton-in-go/": {
+      "permalink": "/posts/using-singleton-in-go/",
+      "section": "posts",
+      "title": "Using Singleton in Go"
     }
   }
 }
