@@ -8,6 +8,10 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
   [[module.imports]]
     path = "github.com/michenriksen/hugo-theme-til"
 
+[services]
+  [services.disqus]
+    shortname = 'faridyusof'
+    
 [outputs]
   home = ['html']
   section = ['html', 'rss', 'json']
