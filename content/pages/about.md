@@ -21,7 +21,7 @@ If you need to contact me, you can find me on
 - [X/Twitter](https://x.com/faridyusof727)
 - [Telegram](https://t.me/faridyusof727)
 
-If you me to mentor you or your team, please connect with me on
+And if you need me to mentor you or your team, please connect with me on
 [adplist.org](https://adplist.org/mentors/farid-yusof). Hey, don't worry, it'll be
 casual and fun!
 
