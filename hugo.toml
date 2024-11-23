@@ -15,8 +15,8 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
 
 [menus]
   [[menus.main]]
-    name = 'GitHub'
-    url = 'https://github.com/faridyusof727'
+    name = 'About'
+    pageRef = '/pages/about'
     weight = 10
   [[menus.main]]
     name = 'Posts'
