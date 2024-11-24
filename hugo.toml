@@ -37,6 +37,8 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
     style = 'github-dark'
 
   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true

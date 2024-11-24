@@ -1,8 +1,9 @@
 +++
 date = '2024-11-23T08:11:02+08:00'
-draft = true
 title = 'About'
 +++
+
+<img src="/photo.png" alt="profile image" title="profile image" class="profile-image">
 
 Hey! 👋 I'm Farid, proudly living in 🇲🇾.
 

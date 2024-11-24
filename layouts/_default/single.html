@@ -1,5 +1,11 @@
 {{ define "main" }}
   {{- $imgResources := .Resources.ByType "image" -}}
+  <style>
+    .profile-image {
+      max-width: 50%;
+      border-radius: 10%;
+    }
+  </style>
   <article class="main">
     <header>
       <h1 class="!mb-1">{{ .Title | title }}</h1>

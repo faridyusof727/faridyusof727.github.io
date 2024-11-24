@@ -3,7 +3,7 @@ date = '2024-11-22T21:54:01+08:00'
 title = 'Using Singleton in Go'
 +++
 
-![alt text](./image.png)
+![alt text](/image.png)
 
 When I was starting to learn Go, I was passing around the instance to access the
 property of that instance. This is how I do it:

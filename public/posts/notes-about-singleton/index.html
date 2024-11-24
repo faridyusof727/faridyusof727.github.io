@@ -3,7 +3,7 @@
   lang="en-us"
   dir="ltr"
 >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8" />
 <meta name="language" content="en" />
 <meta name="viewport" content="width=device-width" />
@@ -12,7 +12,7 @@
 </title>
   <meta name="description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
 There are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing." />
-<meta property="og:url" content="http://localhost:1313/posts/notes-about-singleton/">
+<meta property="og:url" content="https://example.com/posts/notes-about-singleton/">
   <meta property="og:site_name" content="Farid Yusof&#39;s Blog">
   <meta property="og:title" content="Notes About Singleton">
   <meta property="og:description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
@@ -36,32 +36,42 @@ There are so many thoughts. For starters, the above is a very generic statement.
   <meta name="twitter:description" content="I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.
 There are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing.">
 
-<link rel="canonical" href="http://localhost:1313/posts/notes-about-singleton/" />
+<link rel="canonical" href="https://example.com/posts/notes-about-singleton/" />
 
-    <link rel="stylesheet" href="/css/index.css" />
+      <link
+        rel="stylesheet"
+        href="/css/index.min.7dc5bce5e48ff3fe71c582eac851646db39f1a70e9dc6198c199a3189731869e.css"
+        integrity="sha256-fcW85eSP8/5xxYLqyFFkbbOfGnDp3GGYwZmjGJcxhp4="
+        crossorigin="anonymous"
+      />
 
 
-      <script src="/js/main.js" defer></script>
+      <script
+        src="/js/main.d08dd7bf84e75145632853df5565c828a4a44de84df4bf08672d692241737c30.js"
+        integrity="sha256-0I3Xv4TnUUVjKFPfVWXIKKSkTehN9L8IZy1pIkFzfDA="
+        crossorigin="anonymous"
+        defer
+      ></script>
   
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
-  "@id": "http://localhost:1313/posts/notes-about-singleton/",
+  "@id": "https://example.com/posts/notes-about-singleton/",
   "@type": "BlogPosting",
   "copyrightNotice": "Farid Yusof",
   "datePublished": "2024-11-22",
   "description": "I’ve been reading that singleton is an anti-pattern but it helps when I want to connect to a DB instance.\nThere are so many thoughts. For starters, the above is a very generic statement. Some languages rely on singletons, and some languages don’t support them at all. I think that everything has a place. And as long as the consequences of doing a thing are understood, and acceptable, then it is ok to do the thing.",
   "headline": "Notes About Singleton",
   "isPartOf": {
-    "@id": "http://localhost:1313/posts/",
+    "@id": "https://example.com/posts/",
     "@type": "Blog",
     "name": "Posts"
   },
-  "mainEntityOfPage": "http://localhost:1313/posts/notes-about-singleton/",
+  "mainEntityOfPage": "https://example.com/posts/notes-about-singleton/",
   "name": "Notes About Singleton",
   "timeRequired": "PT3M",
-  "url": "http://localhost:1313/posts/notes-about-singleton/",
+  "url": "https://example.com/posts/notes-about-singleton/",
   "wordCount": 589
 }
 </script>
@@ -96,7 +106,13 @@ There are so many thoughts. For starters, the above is a very generic statement.
 
       </header>
       <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        <article class="main">
+        <style>
+    .profile-image {
+      max-width: 50%;
+      border-radius: 10%;
+    }
+  </style>
+  <article class="main">
     <header>
       <h1 class="!mb-1">Notes About Singleton</h1><div class="flex flex-row items-center space-x-4">
           <time class="text-sm italic opacity-80" datetime="2024-11-22T21:36:14&#43;08:00"
