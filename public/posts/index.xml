@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Farid Yusof</copyright>
-    <lastBuildDate>Fri, 22 Nov 2024 22:08:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 20:11:02 +0800</lastBuildDate>
     <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Tale of the Perfect Yet Impractical Solution</title>
+      <link>https://example.com/posts/perfect-yet-impractical/</link>
+      <pubDate>Sun, 24 Nov 2024 20:11:02 +0800</pubDate>
+      <guid>https://example.com/posts/perfect-yet-impractical/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.com/bubble-tea.png&#34; alt=&#34;bubble tea&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In a bustling tech startup called KathTech Inc. &lt;em&gt;(not the real name)&lt;/em&gt;,&#xA;our team was working on a highly anticipated app—one that was meant&#xA;to revolutionize the way people ordered bubble tea &lt;em&gt;(not a real app)&lt;/em&gt;.&#xA;Each of us brought unique ideas to the table, but there was one person&#xA;who stood out: Adrian the Architect. Known for his brilliant mind,&#xA;Adrian had a reputation for coming up with ideal, flawless technical&#xA;solutions. The kind of solutions that made you go, “Wow, that’s&#xA;genius!” —until you realized they would take three years to build.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sentinel Error</title>
       <link>https://example.com/posts/sentinel-error/</link>

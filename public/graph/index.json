@@ -4,6 +4,10 @@
       "in": [],
       "out": []
     },
+    "/posts/perfect-yet-impractical/": {
+      "in": [],
+      "out": []
+    },
     "/posts/sentinel-error/": {
       "in": [],
       "out": []
@@ -18,6 +22,11 @@
       "permalink": "/posts/notes-about-singleton/",
       "section": "posts",
       "title": "Notes About Singleton"
+    },
+    "/posts/perfect-yet-impractical/": {
+      "permalink": "/posts/perfect-yet-impractical/",
+      "section": "posts",
+      "title": "The Tale of the Perfect Yet Impractical Solution"
     },
     "/posts/sentinel-error/": {
       "permalink": "/posts/sentinel-error/",
