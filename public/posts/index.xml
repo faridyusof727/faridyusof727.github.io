@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Farid Yusof</copyright>
-    <lastBuildDate>Sun, 24 Nov 2024 20:11:02 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2024 10:05:01 +0800</lastBuildDate>
     <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Untangling the Web</title>
+      <link>https://example.com/posts/untangling-the-web/</link>
+      <pubDate>Thu, 28 Nov 2024 10:05:01 +0800</pubDate>
+      <guid>https://example.com/posts/untangling-the-web/</guid>
+      <description>&lt;p&gt;In the dim light of the office, long after most of the team had left,&#xA;I found myself deep in conversation with my senior. We were hunched over&#xA;a whiteboard, markers in hand, surrounded by a chaotic array of boxes&#xA;and arrows that represented our project’s folder structure.&lt;/p&gt;&#xA;&lt;p&gt;Months ago, we had enthusiastically crafted this structure, believing it&#xA;was the blueprint for success. But as time passed, reality set in. Our&#xA;once-promising structure had become a tangled web, tightly coupling&#xA;components and making even the smallest changes a Herculean task.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Tale of the Perfect Yet Impractical Solution</title>
       <link>https://example.com/posts/perfect-yet-impractical/</link>

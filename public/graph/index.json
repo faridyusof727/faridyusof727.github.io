@@ -12,6 +12,10 @@
       "in": [],
       "out": []
     },
+    "/posts/untangling-the-web/": {
+      "in": [],
+      "out": []
+    },
     "/posts/using-singleton-in-go/": {
       "in": [],
       "out": []
@@ -32,6 +36,11 @@
       "permalink": "/posts/sentinel-error/",
       "section": "posts",
       "title": "Sentinel Error"
+    },
+    "/posts/untangling-the-web/": {
+      "permalink": "/posts/untangling-the-web/",
+      "section": "posts",
+      "title": "Untangling the Web"
     },
     "/posts/using-singleton-in-go/": {
       "permalink": "/posts/using-singleton-in-go/",
