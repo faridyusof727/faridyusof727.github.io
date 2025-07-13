@@ -52,6 +52,8 @@ that would be the correct time to start refactoring.
 > lead to too many types being made public creating a wide, shallow,
 > API surface for your package.
 >
+> Link: <https://dave.cheney.net/practical-go/presentations/qcon-china.html#_consider_fewer_larger_packages>
+>
 > -- [Dave Cheney](https://dave.cheney.net/about)
 
 Refactoring, or I would say, enhancing the structure would be a simple task to do.
