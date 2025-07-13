@@ -3,16 +3,17 @@ date = '2025-07-13T08:58:32+08:00'
 title = 'Start Simple With Go'
 +++
 
-You know, Go (or as some people call it, Golang) is known as a language that
-focuses on simplicity. But when your project grows, it won't be simple anymore.
+You know, Go (or Golang, as some people call it) is known for its simplicity.
+But as your project grows, things won't stay simple forever.
 
-You can still maintain simplicity within your code organisation structure. It
-really depends on how you want to structure your codebase. Some devs will start
-encapsulating immediately, while others focus on a simpler approach.
+You can still maintain simplicity in your code organisation.
+How you structure your codebase really depends on your approach.
+Some developers start encapsulating things immediately, while others prefer to
+keep it simple at first.
 
-When you start structuring your codebase, you might be biased; especially
-if you're coming from a different ecosystem or another language's "tribe."
-Your structures are probably influenced by other languages.
+When you start structuring your codebase, you might be biased-especially
+if you're coming from a different ecosystem or programming "tribe."
+Your structures are probably influenced by those other languages.
 
 A common example that I noticed:
 
@@ -35,8 +36,8 @@ Go code is known for its simplicity and "flatness." The Go community intentional
 avoids deep folder structures, unnecessary abstractions, and generic naming.
 Idiomatic Go code is about clarity, discoverability, and minimal ceremony.
 
-As the project grows, it'll become a headache to maintain the folder structure.
-In my experience, you'll have a hard time to navigate the codebase.
+As the project grows, maintaining that folder structure becomes a headache.
+In my experience, you'll have a hard time navigating the codebase.
 
 ## So, what's best?
 
@@ -118,7 +119,7 @@ their own top-level packages:
         └── repository.go
 ```
 
-The point that I'm trying to emphasise it to always "start simple". Your structure
+The point that I'm trying to emphasise is, to always "start simple". Your structure
 is totally fine… until it isn't. As soon as files/domains start to balloon or
 cross-cutting concerns emerge, refactor by subdomain/feature and move shared
 concerns out to their own packages.
