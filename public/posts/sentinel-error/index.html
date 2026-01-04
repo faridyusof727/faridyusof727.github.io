@@ -267,8 +267,8 @@ I can&rsquo;t just do something like below:</p>
   <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">theFunc</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nf">functionThatCallsWaitUntilReady</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nx">err</span><span class="p">.</span><span class="nf">Error</span><span class="p">()</span> <span class="o">==</span> <span class="s">&#34;wait until ready error&#34;</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// handle the error
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// handle the error</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">err</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
@@ -413,8 +413,8 @@ being changed by the third party package. Possible!</p>
   <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">someWaitingProcess</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">provider</span><span class="p">.</span><span class="nf">WaitUntilReady</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nx">errors</span><span class="p">.</span><span class="nf">Is</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ErrWaitUntilReady</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// handle the error
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// handle the error</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
   <p class="sr-only">go code snippet end</p>
 
@@ -484,7 +484,7 @@ I won&rsquo;t forget. 😃😃😃</p>
       <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
         <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
-      <p>Copyright &copy; 2024, Farid Yusof.</p>
+      <p>Copyright &copy; 2026, Farid Yusof.</p>
 
   </div>
     <div>

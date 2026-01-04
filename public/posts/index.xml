@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Farid Yusof</copyright>
-    <lastBuildDate>Thu, 28 Nov 2024 10:05:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 11:23:28 +0800</lastBuildDate>
     <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chronology of How I Became a Software Engineer</title>
+      <link>https://example.com/posts/my-chronology/</link>
+      <pubDate>Sun, 04 Jan 2026 11:23:28 +0800</pubDate>
+      <guid>https://example.com/posts/my-chronology/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.com/cover.png&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I started becoming interested in computers when I was very young. Back then, I&#xA;still remember using Windows 3.1. Although the main purpose was just to play&#xA;Prince of Persia, I kept tinkering with other things too. Calculator,&#xA;PaintBrush, and whatever I could explore.&lt;/p&gt;&#xA;&lt;p&gt;As a kid, I really loved playing games. To the point where my parents would get&#xA;angry because I was always gaming. At that time, my mother was still studying.&#xA;She brought home books about computers, if I remember correctly, Borland C.&#xA;I tried to implement the simple instructions from the book on the computer.&#xA;By then, I was probably already using Windows 98.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Start Simple With Go</title>
+      <link>https://example.com/posts/start-simple-with-go/</link>
+      <pubDate>Sun, 13 Jul 2025 08:58:32 +0800</pubDate>
+      <guid>https://example.com/posts/start-simple-with-go/</guid>
+      <description>&lt;p&gt;You know, Go (or Golang, as some people call it) is known for its simplicity.&#xA;But as your project grows, things won&amp;rsquo;t stay simple forever.&lt;/p&gt;&#xA;&lt;p&gt;You can still maintain simplicity in your code organisation.&#xA;How you structure your codebase really depends on your approach.&#xA;Some developers start encapsulating things immediately, while others prefer to&#xA;keep it simple at first.&lt;/p&gt;&#xA;&lt;p&gt;When you start structuring your codebase, you might be biased-especially&#xA;if you&amp;rsquo;re coming from a different ecosystem or programming &amp;ldquo;tribe.&amp;rdquo;&#xA;Your structures are probably influenced by those other languages.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Untangling the Web</title>
       <link>https://example.com/posts/untangling-the-web/</link>

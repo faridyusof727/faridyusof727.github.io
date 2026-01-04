@@ -1,5 +1,9 @@
 {
   "graph": {
+    "/posts/my-chronology/": {
+      "in": [],
+      "out": []
+    },
     "/posts/notes-about-singleton/": {
       "in": [],
       "out": []
@@ -9,6 +13,10 @@
       "out": []
     },
     "/posts/sentinel-error/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/start-simple-with-go/": {
       "in": [],
       "out": []
     },
@@ -22,6 +30,11 @@
     }
   },
   "pages": {
+    "/posts/my-chronology/": {
+      "permalink": "/posts/my-chronology/",
+      "section": "posts",
+      "title": "Chronology of How I Became a Software Engineer"
+    },
     "/posts/notes-about-singleton/": {
       "permalink": "/posts/notes-about-singleton/",
       "section": "posts",
@@ -36,6 +49,11 @@
       "permalink": "/posts/sentinel-error/",
       "section": "posts",
       "title": "Sentinel Error"
+    },
+    "/posts/start-simple-with-go/": {
+      "permalink": "/posts/start-simple-with-go/",
+      "section": "posts",
+      "title": "Start Simple With Go"
     },
     "/posts/untangling-the-web/": {
       "permalink": "/posts/untangling-the-web/",

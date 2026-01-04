@@ -200,8 +200,7 @@ difficulties while doing testing.</p>
 <p>In summary, over time people have found singletons to be less than optimal, and
 IMHO especially if you are trying to do any test-driven development: on many
 levels, they are pretty much as bad as global variables. Ref:
-<a href="https://stackoverflow.com/a/1823320/14347896">https://stackoverflow.com/a/1823320/14347896</a></p>
-</blockquote>
+<a href="https://stackoverflow.com/a/1823320/14347896">https://stackoverflow.com/a/1823320/14347896</a></p></blockquote>
 <p>There are also problems around threads and you will need to properly lock and
 unlock for any references that are calling the instance.</p>
 <p>Let’s look at what it looks like when we implement Singleton in Go. And I want to
@@ -272,9 +271,9 @@ effort to refactor when this logic is inevitably wrong.</p>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">GetFirebaseInstance</span><span class="p">()</span> <span class="p">(</span><span class="o">*</span><span class="nx">auth</span><span class="p">.</span><span class="nx">Client</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nx">firebaseAuthClient</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// IMPORTANT: We need to lock here to ensure no one calls the same
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// instance multiple times.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">lock</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// IMPORTANT: We need to lock here to ensure no one calls the same</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// instance multiple times.</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">lock</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">        <span class="k">defer</span> <span class="nx">lock</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="nx">firebaseAuthClient</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="nx">opt</span> <span class="o">:=</span> <span class="nx">option</span><span class="p">.</span><span class="nf">WithCredentialsFile</span><span class="p">(</span><span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;FIREBASE_ADMIN_SDK&#34;</span><span class="p">))</span>
@@ -362,7 +361,7 @@ permission. There’s also a simple way to do this by using <code>sync.Once</cod
       <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
         <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
-      <p>Copyright &copy; 2024, Farid Yusof.</p>
+      <p>Copyright &copy; 2026, Farid Yusof.</p>
 
   </div>
     <div>
