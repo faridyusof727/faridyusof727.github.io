@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Farid Yusof</copyright>
-    <lastBuildDate>Sun, 04 Jan 2026 11:23:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 12:10:00 +0800</lastBuildDate>
     <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Early Feedback Loop: Working Smart on Frontend Development</title>
+      <link>https://example.com/posts/early-feedback-loop/</link>
+      <pubDate>Sun, 04 Jan 2026 12:10:00 +0800</pubDate>
+      <guid>https://example.com/posts/early-feedback-loop/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.com/early-feedback.png&#34; alt=&#34;early-feedback&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;early-feedback-loop&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  Early Feedback Loop&#xA;  &#xA;    &lt;a href=&#34;#early-feedback-loop&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;At most places I&amp;rsquo;ve worked before, we were conditioned to complete tasks&#xA;entirely - PR, deploy to stage or testing environment - and only then&#xA;would we get feedback from the &amp;ldquo;Product Team&amp;rdquo; / &amp;ldquo;QA&amp;rdquo; team.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chronology of How I Became a Software Engineer</title>
       <link>https://example.com/posts/my-chronology/</link>

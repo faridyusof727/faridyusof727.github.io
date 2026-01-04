@@ -1,5 +1,9 @@
 {
   "graph": {
+    "/posts/early-feedback-loop/": {
+      "in": [],
+      "out": []
+    },
     "/posts/my-chronology/": {
       "in": [],
       "out": []
@@ -30,6 +34,11 @@
     }
   },
   "pages": {
+    "/posts/early-feedback-loop/": {
+      "permalink": "/posts/early-feedback-loop/",
+      "section": "posts",
+      "title": "Early Feedback Loop: Working Smart on Frontend Development"
+    },
     "/posts/my-chronology/": {
       "permalink": "/posts/my-chronology/",
       "section": "posts",
