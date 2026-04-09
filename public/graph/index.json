@@ -12,6 +12,10 @@
       "in": [],
       "out": []
     },
+    "/posts/opinion-on-ai/": {
+      "in": [],
+      "out": []
+    },
     "/posts/perfect-yet-impractical/": {
       "in": [],
       "out": []
@@ -48,6 +52,11 @@
       "permalink": "/posts/notes-about-singleton/",
       "section": "posts",
       "title": "Notes About Singleton"
+    },
+    "/posts/opinion-on-ai/": {
+      "permalink": "/posts/opinion-on-ai/",
+      "section": "posts",
+      "title": "Opinion on AI"
     },
     "/posts/perfect-yet-impractical/": {
       "permalink": "/posts/perfect-yet-impractical/",

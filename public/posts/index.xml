@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Farid Yusof</copyright>
-    <lastBuildDate>Sun, 04 Jan 2026 12:10:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 12:10:00 +0800</lastBuildDate>
     <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opinion on AI</title>
+      <link>https://example.com/posts/opinion-on-ai/</link>
+      <pubDate>Thu, 09 Apr 2026 12:10:00 +0800</pubDate>
+      <guid>https://example.com/posts/opinion-on-ai/</guid>
+      <description>&lt;p&gt;Hey! I just want to share my personal opinion on AI, vibe coding, and its&#xA;effect on software engineers. A friend from a UK company asked me:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t know in which direction it&amp;rsquo;s going (the AI). But overall what do you&#xA;think about the software industry moving forward?&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;First, I wasn&amp;rsquo;t sure whether he was asking about the &amp;ldquo;industry&amp;rdquo; or&#xA;&amp;ldquo;software engineers.&amp;rdquo; And honestly, I don&amp;rsquo;t think AI would hurt the&#xA;&amp;ldquo;industry&amp;rdquo; — as a matter of fact, it&amp;rsquo;s actually empowering it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Early Feedback Loop: Working Smart on Frontend Development</title>
       <link>https://example.com/posts/early-feedback-loop/</link>
